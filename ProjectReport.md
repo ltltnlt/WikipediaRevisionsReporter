@@ -1,6 +1,6 @@
 # Project Report
 
-(Put your name here)
+Songxiying He
 
 ## Markdown Tips
 
@@ -16,13 +16,13 @@ Please remove this subsection before submitting your report.
 
 ## Challenge #1 Complete
 
-Incomplete
+Complete
+I changed the direction class.
 
 ## Challenge #2 Complete
 
-(Explain your solution to Challenge #2. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+Incomplete
+I do not know how to restrict the format of instant timestamp.
 
 ## Challenge #3 Complete
 
