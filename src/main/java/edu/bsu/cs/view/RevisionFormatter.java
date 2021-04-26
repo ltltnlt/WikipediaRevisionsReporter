@@ -1,3 +1,4 @@
+
 package edu.bsu.cs.view;
 
 import edu.bsu.cs.model.Revision;
@@ -11,5 +12,5 @@ public final class RevisionFormatter {
                 DateTimeFormatter.ISO_INSTANT.format(revision.timestamp),
                 revision.name);
     }
-    
+
 }
