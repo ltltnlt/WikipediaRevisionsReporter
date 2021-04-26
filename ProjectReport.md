@@ -47,5 +47,6 @@ double check the classes that using Dependency Inversion.
 I am not fond of using interfaces, but it can be used to avoid a lot of troubles. 
 In this project, the polymorphism and Dependency Inversion helped each other to 
 work better. They made the variables more flexible while the variables would not 
-interrupt each other.
+interrupt each other. Polymorphism helps the classes to connect with each other while the 
+Dependency Inversion helps to use the specific methods.
 
