@@ -11,21 +11,7 @@ import java.time.Instant;
 import static java.lang.annotation.RetentionPolicy.RUNTIME;
 
 public interface QueryEngine{
-    @Qualifier
-    @Retention(RUNTIME)
-    @interface Message {}
+      QueryResponse queryRevisions(String articleTitle) throws IOException;
 
-    /*@Qualifier
-    @interface Count {}
-*/
-
-    QueryResponse queryRevisions(String articleTitle) throws IOException;
-
-    @Provides
-    @Message
-    static WikipediaQueryEngine wikipediaEngine() {
-        WikipediaQueryEngine wikipediaQueryEngine = new WikipediaQueryEngine();
-        return wikipediaQueryEngine;
-    }
 
 }
