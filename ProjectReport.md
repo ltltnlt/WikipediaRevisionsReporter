@@ -16,9 +16,7 @@ Please remove this subsection before submitting your report.
 
 ## Challenge #1 Complete
 
-(Explain your solution to Challenge #1. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+Incomplete
 
 ## Challenge #2 Complete
 

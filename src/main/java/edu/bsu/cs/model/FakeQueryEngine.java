@@ -20,7 +20,7 @@ public final class FakeQueryEngine implements QueryEngine {
             System.err.println("Unexpected interruption: " + e.getLocalizedMessage());
         }
         QueryResponse.Builder builder = new QueryResponse.Builder();
-        builder.add(Revision.editor("Billy Bologna").timestamp(Instant.now()));
+        builder.add(Revision.editor(queryRevisions(QueryEngine.Message)).timestamp(Instant.now()));
         return builder.build();
     }
 }

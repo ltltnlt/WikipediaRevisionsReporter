@@ -22,4 +22,5 @@ public final class WikipediaQueryEngine implements QueryEngine {
         ResponseParser parser = new ResponseParser();
         return parser.parse(connection.getInputStream());
     }
+
 }
