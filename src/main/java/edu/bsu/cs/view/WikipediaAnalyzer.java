@@ -73,3 +73,6 @@ public final class WikipediaAnalyzer extends VBox {
     }
 
 }
+
+
+
